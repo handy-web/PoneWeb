@@ -1,0 +1,21 @@
+{
+	"index.html": {
+		"resources": [
+			"img/web_close.png",
+			"img/web_code.png",
+			"img/web_lot.png",
+			"img/web_cn.png",
+			"css/style.css",
+			"img/web_index.png",
+			"img/web_s.png",
+			"img/web_tn.png",
+			"img/web_tel.png",
+			"img/web_img.png",
+			"js/jquery-1.9.0.min.js",
+			"img/icon-redio.png",
+			"img/web_bw.png",
+			"img/icon-actredio.png",
+			"img/web_cd.png"
+		]
+	}
+}

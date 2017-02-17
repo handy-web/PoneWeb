@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>首页</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/jquery-1.9.0.min.js" ></script>
+	</head>
+	<body>
+		<div class="web-index">
+			<img src="img/web_index.png"/>
+		</div>
+		<div class="web-lot">
+			<img src="img/web_lot.png"/>
+		</div>
+		<div class="web-box">
+			<p class="web-pt">（不要犹豫，这不是心理测试，根据实际情况来选择选项，才能最真实的反映您身体的情况。快来为你的健康打个分吧！）</p>
+			<p class="web-pn">
+				<em>单项分数：</em>
+				<em>a：0分</em>
+				<em>b：1分</em>
+				<em>c：3分</em>
+				<em>（可自动生成检测分数并提供解决方案）</em>
+			</p>
+		</div>
+		<div class="web-ins"></div>
+		<div class="web-box">
+			<p class="web-text">1.你的年纪：</p>
+			<ul class="web-list">
+				<li>
+					<label class="web-cell" for="select1_1">
+						<a class="web-hd"><input type="radio" name="select1" id="select1_1" value="a"><i class="web-checked"></i></a>
+						<span>a.50岁以上</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select1_2">
+						<a class="web-hd"><input type="radio" name="select1" id="select1_2" value="b"><i class="web-checked"></i></a>
+						<span>b.15-30岁</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select1_3">
+						<a class="web-hd"><input type="radio" name="select1" id="select1_3" value="c"><i class="web-checked"></i></a>
+						<span>c.30-50岁</span>
+					</label>
+				</li>
+			</ul>
+			<p class="web-text">2.是否爱手脚冰凉？</p>
+			<ul class="web-list">
+				<li>
+					<label class="web-cell" for="select2_1">
+						<a class="web-hd"><input type="radio" name="select2" id="select2_1" value="a"><i class="web-checked"></i></a>
+						<span>a.没有，我的手脚总是很热乎</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select2_2">
+						<a class="web-hd"><input type="radio" name="select2" id="select2_2" value="b"><i class="web-checked"></i></a>
+						<span>b.睡觉的时候手脚冰凉</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select2_3">
+						<a class="web-hd"><input type="radio" name="select2" id="select2_3" value="c"><i class="web-checked"></i></a>
+						<span>c.长期都手脚冰凉，怕冷</span>
+					</label>
+				</li>
+			</ul>
+			<p class="web-text">3.睡眠的质量好吗？</p>
+			<ul class="web-list">
+				<li>
+					<label class="web-cell" for="select3_1">
+						<a class="web-hd"><input type="radio" name="select3" id="select3_1" value="a"><i class="web-checked"></i></a>
+						<span>a.很好，一觉睡到天亮</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select3_2">
+						<a class="web-hd"><input type="radio" name="select3" id="select3_2" value="b"><i class="web-checked"></i></a>
+						<span>b.一般，有时候睡不好</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select3_3">
+						<a class="web-hd"><input type="radio" name="select3" id="select3_3" value="c"><i class="web-checked"></i></a>
+						<span>c.不好，睡眠质量很差</span>
+					</label>
+				</li>
+			</ul>
+			<p class="web-text">4.对着镜子看看舌苔苔象：</p>
+			<ul class="web-list">
+				<li>
+					<label class="web-cell" for="select4_1">
+						<a class="web-hd"><input type="radio" name="select4" id="select4_1" value="a"><i class="web-checked"></i></a>
+						<span>a.舌苔薄白、舌质呈淡红色</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select4_2">
+						<a class="web-hd"><input type="radio" name="select4" id="select4_2" value="b"><i class="web-checked"></i></a>
+						<span>b.舌苔比较厚腻，呈白色、黄色</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select4_3">
+						<a class="web-hd"><input type="radio" name="select4" id="select4_3" value="c"><i class="web-checked"></i></a>
+						<span>c.舌苔厚腻，呈白色、黄色、舌边常留齿痕</span>
+					</label>
+				</li>
+			</ul>
+			<p class="web-text">5.平时有痛经的现象吗？</p>
+			<ul class="web-list">
+				<li>
+					<label class="web-cell" for="select5_1">
+						<a class="web-hd"><input type="radio" name="select5" id="select5_1" value="a"><i class="web-checked"></i></a>
+						<span>a.基本不痛经</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select5_2">
+						<a class="web-hd"><input type="radio" name="select5" id="select5_2" value="b"><i class="web-checked"></i></a>
+						<span>b.有时候痛经，经期头两天比较明显</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select5_3">
+						<a class="web-hd"><input type="radio" name="select5" id="select5_3" value="c"><i class="web-checked"></i></a>
+						<span>c.痛经，感觉越来越严重</span>
+					</label>
+				</li>
+			</ul>
+			<p class="web-text">6.例假天数：</p>
+			<ul class="web-list">
+				<li>
+					<label class="web-cell" for="select6_1">
+						<a class="web-hd"><input type="radio" name="select6" id="select6_1" value="a"><i class="web-checked"></i></a>
+						<span>a.3-7天</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select6_2">
+						<a class="web-hd"><input type="radio" name="select6" id="select6_2" value="b"><i class="web-checked"></i></a>
+						<span>b.1-3</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select6_3">
+						<a class="web-hd"><input type="radio" name="select6" id="select6_3" value="c"><i class="web-checked"></i></a>
+						<span>c.一周以上或淋漓不尽</span>
+					</label>
+				</li>
+			</ul>
+			<p class="web-text">7.经期是否正常？</p>
+			<ul class="web-list">
+				<li>
+					<label class="web-cell" for="select7_1">
+						<a class="web-hd"><input type="radio" name="select7" id="select7_1" value="a"><i class="web-checked"></i></a>
+						<span>a.挺正常的</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select7_2">
+						<a class="web-hd"><input type="radio" name="select7" id="select7_2" value="b"><i class="web-checked"></i></a>
+						<span>b.月经量大或偏少</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select7_3">
+						<a class="web-hd"><input type="radio" name="select7" id="select7_3" value="c"><i class="web-checked"></i></a>
+						<span>c.经血颜色发黑，有血块</span>
+					</label>
+				</li>
+			</ul>
+			<p class="web-text">8.家里人有出现过恶性肌瘤史吗？</p>
+			<ul class="web-list">
+				<li>
+					<label class="web-cell" for="select8_1">
+						<a class="web-hd"><input type="radio" name="select8" id="select8_1" value="a"><i class="web-checked"></i></a>
+						<span>a.没有</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select8_2">
+						<a class="web-hd"><input type="radio" name="select8" id="select8_2" value="b"><i class="web-checked"></i></a>
+						<span>b.不知道</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select8_3">
+						<a class="web-hd"><input type="radio" name="select8" id="select8_3" value="c"><i class="web-checked"></i></a>
+						<span>c.有</span>
+					</label>
+				</li>
+			</ul>
+			<p class="web-text">9.平常欢喜吃冷食吗？</p>
+			<ul class="web-list">
+				<li>
+					<label class="web-cell" for="select9_1">
+						<a class="web-hd"><input type="radio" name="select9" id="select9_1" value="a"><i class="web-checked"></i></a>
+						<span>a.基本不吃冰的</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select9_2">
+						<a class="web-hd"><input type="radio" name="select9" id="select9_2" value="b"><i class="web-checked"></i></a>
+						<span>b.有的时候吃一点</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select9_3">
+						<a class="web-hd"><input type="radio" name="select9" id="select9_3" value="c"><i class="web-checked"></i></a>
+						<span>c.很爱吃冰的</span>
+					</label>
+				</li>
+			</ul>
+			<p class="web-text">10.遇到麻烦第一反应是什么？</p>
+			<ul class="web-list">
+				<li>
+					<label class="web-cell" for="select10_1">
+						<a class="web-hd"><input type="radio" name="select10" id="select10_1" value="a"><i class="web-checked"></i></a>
+						<span>a.没什么大不了的，总会过去的</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select10_2">
+						<a class="web-hd"><input type="radio" name="select10" id="select10_2" value="b"><i class="web-checked"></i></a>
+						<span>b.有点不开心，但是能够调整</span>
+					</label>
+				</li>
+				<li>
+					<label class="web-cell" for="select10_3">
+						<a class="web-hd"><input type="radio" name="select10" id="select10_3" value="c"><i class="web-checked"></i></a>
+						<span>c.为什么倒霉的事情都被我遇到，真的很心烦</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="web-but">
+			<a>点击查看结果</a>
+		</div>
+		<div class="web-tab">
+			<div class="web-item web-item-ins">
+				<p class="web-item-pt"><em>10分以上</em>怀疑木耳体质，<em>15分以上</em>为标准木耳体质，建议进行一步检查治疗......</p>				
+				<h3 class="web-h3">加微信一对一调理木耳体质：</h3>
+				<div class="web-down"><img src="img/web_down.png"/></div>
+				<div class="web-tor"><span class="web-a">搜索微信号</span><em class="web-b">NVKE027</em>（←长按微信号可以复制）</div>
+				<p class="web-gt"><em class="web-d">关注方式：</em>复制微信号→添加朋友→查找微信→关注<span class="web-f">“加博士女科调理”</span></p>
+				<div class="web-code">
+					<img src="img/web_cd1.png"/>					
+				</div>
+				<div class="web-btn web-flex web-cen">										
+					<a><i class="web-xq"></i>详情点击</a>			
+				</div>				
+			</div>
+		</div>
+		<div class="web-tn">
+			<img src="img/web_tn.png"/>
+		</div>
+		<div class="web-cn">
+			<img src="img/web_cn.png"/>
+		</div>
+		<!--<div class="web-tab">
+			<div class="web-item web-cmt">								
+				<div class="web-code">
+					<img src="img/web_cd2.png"/>				
+				</div>							
+			</div>
+		</div>-->
+		<!--<div class="web-tab web-top">
+			<div class="web-item">								
+				<div class="web-bw">
+					<img src="img/web_bw.png"/>
+				</div>				
+				<div class="web-btn web-flex">					
+					<a class="flt"><i class="web-tel"></i>咨询热线</a>
+					<a class="frt"><i class="web-xq"></i>详情点击</a>			
+				</div>		
+			</div>
+		</div>-->
+		
+		<div class="web-bg"></div>
+		<div class="web-mg">			
+			<!--低分-->
+			<div class="web-row1" style="display: none;">	
+				<div class="web-fle">
+					<div class="web-xt"><em class="web-close"></em></div>					
+					<div class="web-cel">
+						<img src="img/web_img.png"/>
+					</div>
+					<div class="web-rt">
+						<div class="web-rt-but">
+							<a class="score">9分</a>
+						</div>
+						<p class="web-rt-pt">恭喜你，您的体质很健康，一定要保持下去哦！</p>
+					</div>
+				</div>				
+			</div>
+
+			<!--中分-->
+			<div class="web-row2" style="display: none;">	
+				<div class="web-fle">
+					<div class="web-xt"><em class="web-close"></em></div>					
+					<div class="web-cel">
+						<img src="img/web_img.png"/>
+					</div>
+					<div class="web-rt">
+						<div class="web-rt-but">
+							<a  class="score">12分</a>
+						</div>
+						<p class="web-rt-pt">您的身体情况不太乐观，怀疑是木耳体质，建议进一步咨询核实。</p>
+					</div>
+				</div>	
+				<div class="web-tm">
+					<p class="web-tm-row">微信号：jiaboshi</p>
+					<div class="web-ot"><img src="img/web_code.png"/></div>					
+				</div>
+				<p class="web-wx">长按关注微信</p>
+				<div class="web-btn web-flex web-bott">					
+					<a class="flt"><i class="web-tel"></i>咨询热线</a>
+					<a class="frt"><i class="web-xq"></i>详情点击</a>			
+				</div>	
+			</div>
+			<!--高分-->
+			<div class="web-row3" style="display: none;">	
+				<div class="web-fle">
+					<div class="web-xt"><em class="web-close"></em></div>					
+					<div class="web-cel">
+						<img src="img/web_img.png"/>
+					</div>
+					<div class="web-rt">
+						<div class="web-rt-but">
+							<a  class="score">16分</a>
+						</div>
+						<p class="web-rt-pt">您属于标准的木耳体质，建议进一步检查治疗，尽早彻底改善木耳体质，以预防肿瘤的生长。</p>
+					</div>
+				</div>	
+				<div class="web-tm">
+					<p class="web-tm-row">微信号：jiaboshi</p>
+					<div class="web-ot"><img src="img/web_code.png"/></div>					
+				</div>
+				<p class="web-wx">长按关注微信</p>
+				<div class="web-btn web-flex web-bott">					
+					<a class="flt"><i class="web-tel"></i>咨询热线</a>
+					<a class="frt"><i class="web-xq"></i>详情点击</a>			
+				</div>	
+			</div>
+		</div>
+		
+		<script>
+			$().ready(function(){
+				// 提交
+				$('.web-but a').click(function(){
+					var a = 0,b = 0,c = 0;
+					// 循环获取选中的结果，需要保持单选按钮name的一致性
+					var flag = true;
+					for(var i=1;i<=10;i++){
+						var result  = $('input[name="select'+i+'"]:checked').val();
+						if(result == 'a'){
+							a++;
+						}
+						if(result == 'b'){
+							b++;
+						}
+						if(result == 'c'){
+							c++;
+						}
+						if(!result){
+							flag = false;
+							break;
+						}
+					}
+					if(!flag){
+						alert("请答完所有的问题！");
+						return;
+					}
+					var sum = 0*a + 1*b + 3*c;
+					if(sum <= 9){
+						$('.web-row1').find('.score').html(sum+"分");
+						$('.web-row1').show();
+					}else if(sum <= 14){
+						$('.web-row2').find('.score').html(sum+"分");
+						$('.web-row2').show();
+					}else{
+						$('.web-row3').find('.score').html(sum+"分");
+						$('.web-row3').show();
+					}
+					$('.web-bg').show();
+					$('.web-mg').show();
+					$('.web-mg').css('top',($(window).height() - $('.web-mg').outerHeight()) / 2 + 'px');						
+				});
+				// 关闭
+				$('.web-xt').click(function(){
+					$('.web-bg').hide();
+					$('.web-mg').hide();
+					$('.web-row1,.web-row2,.web-row3').hide();//new
+				});
+			});
+		</script>
+	</body>
+</html>
